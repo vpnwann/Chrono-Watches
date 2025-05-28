@@ -7,10 +7,17 @@ import ReviewCard from './Components/ReviewCard'
 import ImageGrid from './Components/ImageGrid'
 import News from './Components/News'
 import Footer from './Components/Footer'
+import ProductOfWeek from './Components/ProductOfWeek'
+import BigMarquees from './Components/MarqueTwo'
+import Blog from './Components/Blog'
+import Custom from './Components/Custom'
+import Testimonial from './Components/Testimonial'
+import { CartProvider } from './CartContext/Context'
 
 
 export default function page() {
   return (
+    <CartProvider>
   <>
   
   <Navbar />
@@ -27,9 +34,27 @@ export default function page() {
 </div>
 <ImageGrid />
 <BigMarquee />
+{/*  */}
+<ProductOfWeek />
 <News />
+<BigMarquees />
+
+<Blog />
+
+<Custom />
+
+<Testimonial />
+
+
+
+
+
+
+
 <Footer />
 
+
   </>
+  </CartProvider>
   )
 }

@@ -5,30 +5,61 @@ import React from 'react';
 const sampleData = [
   {
     id: 1,
-    title: 'Digital Edge',
-    price: '₹500',
+    title: 'CasioVintage A-158WA-1Q',
+    price: '₹1695',
     image:
-      'https://image3.jdomni.in/banner/13062021/42/5C/B1/45AC18B7F8EE562BC3DDB95D34_1623559815667.png?output-format=webp',
+      'https://m.media-amazon.com/images/I/61ybeKQto8L._AC_UL480_QL65_.jpg',
   },
   {
     id: 2,
-    title: 'Casio Lorem',
-    price: '₹450',
+    title: 'Titan x34e',
+    price: '₹2434',
     image:
-      'https://www.shutterstock.com/image-photo/rice-flour-bowl-on-wooden-260nw-1357324985.jpg',
+      'https://m.media-amazon.com/images/I/51ykbSj-eoL._SX679_.jpg',
   },
   {
     id: 3,
-    title: 'Titan Misty',
-    price: '₹600',
+    title: 'Citizen W34dc',
+    price: '₹2132',
     image:
-      'https://5.imimg.com/data5/SELLER/Default/2023/12/369785931/HF/UD/DL/176687481/masala-grinding-service.jpg',
+      'https://m.media-amazon.com/images/I/71+Uu9y5hbL._AC_UL640_QL65_.jpg',
+      
+  },
+   {
+    id: 2,
+    title: 'Titan x34e',
+    price: '₹2434',
+    image:
+      'https://m.media-amazon.com/images/I/51ykbSj-eoL._SX679_.jpg',
+  },
+  {
+    id: 3,
+    title: 'Citizen W34dc',
+    price: '₹2132',
+    image:
+      'https://m.media-amazon.com/images/I/71+Uu9y5hbL._AC_UL640_QL65_.jpg',
+      
+  },
+   {
+    id: 2,
+    title: 'Titan x34e',
+    price: '₹2434',
+    image:
+      'https://m.media-amazon.com/images/I/51ykbSj-eoL._SX679_.jpg',
+  },
+  {
+    id: 3,
+    title: 'Citizen W34dc',
+    price: '₹2132',
+    image:
+      'https://m.media-amazon.com/images/I/71+Uu9y5hbL._AC_UL640_QL65_.jpg',
+      
   },
 ];
 
 const HorizontalSlider = () => {
   return (
-    <div className="container mx-3.5 px-6">
+    <div className="container mx-3.5 px-6 w-full">
       <div className="flex overflow-x-auto space-x-4 py-4">
         {sampleData.map((item) => (
           <div
@@ -38,7 +69,7 @@ const HorizontalSlider = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-contain"
             />
             <div className="p-6 text-center">
               <h3 className="text-xl font-medium text-gray-800 mb-2">

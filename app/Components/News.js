@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function News() {
   return (
-<section class="mt-3">
+<section class="mt-12 ">
     <div class="max-w-full mx-auto px-4 sm:px-6">
         <div class="relative  bg-[url('https://organicthemes.com/demo/chrono/wp-content/blogs.dir/115/files/2023/05/banner-07.jpg')] bg-cover bg-center bg-no-repeat py-10 px-8 md:py-16 md:px-12 aos-init">
             <div class="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
