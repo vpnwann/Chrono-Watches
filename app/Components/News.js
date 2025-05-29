@@ -26,7 +26,7 @@ export default function News() {
                 </div>
                 <form class="w-full lg:w-1/2">
                     <div class="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                        <input type="email" class="w-full appearance-none bg-blue-700 border border-blue-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-blue-400" placeholder="Your best email…" aria-label="Your best email…"/>
+                        <input type="email" class="w-full appearance-none  border border-blue-500 focus:border-blue-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-blue-400" placeholder="Your best email…" aria-label="Your best email…"/>
                         <a class="flex justify-center items-center font-semibold p-2 text-blue-600 bg-blue-100 hover:bg-white shadow"
                             href="#0">
                             Subscribe

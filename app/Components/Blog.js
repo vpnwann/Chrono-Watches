@@ -2,11 +2,16 @@ import React from 'react'
 
 export default function Blog() {
   return (
-    <div class="w-full min-h-screen flex flex-col items-center justify-center py-10">
+    <div
+    data-aos="fade-up"
+    class="w-full min-h-screen flex flex-col items-center justify-center py-10">
   <span class="text-md md:text-lg font-bold text-[#117278] flex items-center gap-1"><ion-icon name="heart-outline"></ion-icon>LATEST NEWS</span>
   <h2 class="text-4xl sm:text-5xl md:text-7xl text-center chelsea-market-regular font-bold text-[#117278] md:mb-16 mb-10">FROM THE BLOG</h2>
 
-  <div class="px-4 md:px-[2rem] xl:px-[6rem] flex flex-col lg:flex-row gap-10">
+  <div 
+  
+  data-aos="fade-down"
+  class="px-4 md:px-[2rem] xl:px-[6rem] flex flex-col lg:flex-row gap-10">
    
     <div class="lg:w-[80%] xl:w-[60%]">
   

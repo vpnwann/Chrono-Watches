@@ -59,7 +59,7 @@ const sampleData = [
 
 const HorizontalSlider = () => {
   return (
-    <div className="container mx-3.5 px-6 w-full">
+    <div className="container w-screen overflow-x-hidden w-full">
       <div className="flex overflow-x-auto space-x-4 py-4">
         {sampleData.map((item) => (
           <div

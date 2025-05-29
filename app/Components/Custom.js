@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Custom() {
   return (
-    <div class="bg-gray-100 py-10">
+    <div class="bg-gray-100 sm:mt-2  mt-36 py-10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
       
