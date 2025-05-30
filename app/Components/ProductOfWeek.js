@@ -13,7 +13,7 @@ export default function ProductOfWeek() {
 
   return (
    <section
-   
+   id="products" 
    data-aos="fade-up"
    class=" w-full  bg-[#0A2025] py-9 px-8">
   <div class="mx-auto flex  flex-col items-center lg:flex-row justify-center gap-10 py-40 max-w-[1440px] bg-no-repeat ">

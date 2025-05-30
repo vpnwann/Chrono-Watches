@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav class=" bg-transparent w-full flex relative justify-between items-center mx-auto px-8 h-20">
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur w-full flex relative justify-between items-center mx-auto px-8 h-20">
 
  <div class="hidden md:inline-flex space-x-4 mt-4">
   <a href="#" class="text-gray-700 hover:text-black font-medium">HOME</a>

@@ -72,9 +72,22 @@ export default function Footer() {
     </div>
   </div>
   <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+    
     <p class="text-sm text-gray-600">
       © Theme by Vpnwan.
     </p>
+    <button
+  onClick={() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }}
+  className="flex w-fit items-center justify-center rounded-2xl bg-white p-3 font-semibold text-white hover:bg-white hover:text-black"
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/128/10412/10412435.png"
+    alt="dropdown arrow"
+    className="h-5 w-5"
+  />
+</button>
     <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
       <li>
         <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
@@ -86,6 +99,7 @@ export default function Footer() {
         <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
       </li>
     </ul>
+    
   </div>
 </div>
   )
